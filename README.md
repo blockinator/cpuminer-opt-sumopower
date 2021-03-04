@@ -1,4 +1,4 @@
-cpuminer-opt-sumopower
+Cpuminer-opt-sumohash
 ---------
 
 *For: Coinantium, CPUchain, MicroBitcoin, SugarChain, Yenten, and more*
@@ -24,23 +24,23 @@ Sugarchain
 ``cpuminer.exe -a yespowersugar -o stratum+tcp://cpu.sumohash.com:8888 -u WALLET_ADDRESS``
 
 
-**Linux and Ubuntu static miner** - https://github.com/blockinator/cpuminer-opt-sumopower/releases/download/1.4/Cpuminer-opt-sumopower-linux64.tar.gz
+**Linux and Ubuntu static miner** - https://github.com/blockinator/Cpuminer-opt-sumohash/releases/download/1.4/Cpuminer-opt-sumohash-linux64.tar.gz
 
 or cmd for download Linux miner
 ```css
-wget https://github.com/blockinator/cpuminer-opt-sumopower/releases/download/1.4/Cpuminer-opt-sumopower-linux64.tar.gz && tar zxvf Cpuminer-opt-sumohash-linux64.tar.gz
+wget https://github.com/blockinator/Cpuminer-opt-sumohash/releases/download/1.4/Cpuminer-opt-sumohash-linux64.tar.gz && tar zxvf Cpuminer-opt-sumohash-linux64.tar.gz
 ```
 
 cmd for auto - download and start mining *one line CMD for Linux mining*
 (replace WALLET_ADDRESS!!!)
 ```css
-wget https://github.com/blockinator/cpuminer-opt-sumopower/releases/download/1.4/Cpuminer-opt-sumopower-linux64.tar.gz && tar zxvf Cpuminer-opt-sumopower-linux64.tar.gz && echo '#!/bin/sh
+wget https://github.com/blockinator/Cpuminer-opt-sumohash/releases/download/1.4/Cpuminer-opt-sumohash-linux64.tar.gz && tar zxvf Cpuminer-opt-sumohash-linux64.tar.gz && echo '#!/bin/sh
 while [ 1 ]; do
 ./cpuminer -a yespowersugar -o stratum+tcp://cpu.sumohash.com:63418 -u WALLET_ADDRESS
 done' > autominer.sh && chmod +x autominer.sh && ./autominer.sh
 ```
 
-**Download binary miner for windows x64** - https://github.com/blockinator/cpuminer-opt-sumopower/releases/
+**Download binary miner for windows x64** - https://github.com/blockinator/Cpuminer-opt-sumohash/releases/
 
 **CPU mining profit calculator** - https://cpu-mining.info/
 
@@ -48,8 +48,8 @@ Compile Ubuntu 16.04, 18.04, 19.04
 ---------
 ```
 sudo apt-get install -y git
-git clone https://github.com/blockinator/cpuminer-opt-sumopower.git
-cd cpuminer-opt-sumopower
+git clone https://github.com/blockinator/Cpuminer-opt-sumohash.git
+cd Cpuminer-opt-sumohash
 sudo apt-get install -y automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev make g++
 sudo apt-get install -y lib32z1-dev
 chmod +x build.sh
