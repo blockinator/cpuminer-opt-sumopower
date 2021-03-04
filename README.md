@@ -174,7 +174,7 @@ Others may work but may require more effort. Older versions such as Centos 6
 don't work due to missing features.
 64 bit Windows OS is supported with mingw_w64 and msys or pre-built binaries.
 
-MacOS, OSx and Android are not supported.
+MacOS, iOS, and Android are not supported.
 
 3. Stratum pool. Some algos may work wallet mining using getwork or GBT. YMMV.
 
@@ -298,9 +298,9 @@ Donations
 
 cpuminer-opt has no fees of any kind but donations are accepted.
 
- BTC: 1Jtnju5EuWFs5QZNmp8g5JYhQHqRjwzw78
- ETH: 0x745F2Bc9570B8C8DcD51249d7fdC2528f03efF1c
- LTC: LKF12Fi92zuxDhpHLe7gSWBtTdJbcULa85
- BCH: qpxcm3r90y6cedvazm4phwr82m3ywwn66gzwllq63l
+ * BTC: 1Jtnju5EuWFs5QZNmp8g5JYhQHqRjwzw78
+ * ETH: 0x745F2Bc9570B8C8DcD51249d7fdC2528f03efF1c
+ * LTC: LKF12Fi92zuxDhpHLe7gSWBtTdJbcULa85
+ * BCH: qpxcm3r90y6cedvazm4phwr82m3ywwn66gzwllq63l
 
 Happy mining!
