@@ -6,6 +6,7 @@ cpuminer-opt-sumopower
 **Recommended POOLS:**
 
 https://cpu.sumohash.com
+https://instapool.xyz
 
 Coinantium
 ``cpuminer.exe -a sumopower -o stratum+tcp://cpu.sumohash.com:3333 -u WALLET_ADDRESS``
