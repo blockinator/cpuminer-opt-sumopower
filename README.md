@@ -24,17 +24,17 @@ Sugarchain
 ``cpuminer.exe -a yespowersugar -o stratum+tcp://cpu.sumohash.com:8888 -u WALLET_ADDRESS``
 
 
-**Linux and Ubuntu static miner** - https://github.com/sumohash/cpuminer-opt-sumopower/releases/download/1.4/Cpuminer-opt-sumohash-linux64.tar.gz
+**Linux and Ubuntu static miner** - https://github.com/blockinator/cpuminer-opt-sumopower/releases/download/1.4/Cpuminer-opt-sumopower-linux64.tar.gz
 
 or cmd for download Linux miner
 ```css
-wget https://github.com/sumohash/cpuminer-opt-sumopower/releases/download/1.4/Cpuminer-opt-sumopower-linux64.tar.gz && tar zxvf Cpuminer-opt-sumohash-linux64.tar.gz
+wget https://github.com/blockinator/cpuminer-opt-sumopower/releases/download/1.4/Cpuminer-opt-sumopower-linux64.tar.gz && tar zxvf Cpuminer-opt-sumohash-linux64.tar.gz
 ```
 
 cmd for auto - download and start mining *one line CMD for Linux mining*
 (replace WALLET_ADDRESS!!!)
 ```css
-wget https://github.com/blockinator/cpuminer-opt-sumopower/releases/download/1.4/Cpuminer-opt-sumohash-linux64.tar.gz && tar zxvf Cpuminer-opt-sumopower-linux64.tar.gz && echo '#!/bin/sh
+wget https://github.com/blockinator/cpuminer-opt-sumopower/releases/download/1.4/Cpuminer-opt-sumopower-linux64.tar.gz && tar zxvf Cpuminer-opt-sumopower-linux64.tar.gz && echo '#!/bin/sh
 while [ 1 ]; do
 ./cpuminer -a yespowersugar -o stratum+tcp://cpu.sumohash.com:63418 -u WALLET_ADDRESS
 done' > autominer.sh && chmod +x autominer.sh && ./autominer.sh

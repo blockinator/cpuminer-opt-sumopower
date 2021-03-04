@@ -92,7 +92,7 @@
 #define PACKAGE_NAME "cpuminer-opt"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "cpuminer-opt 3.8.8.5-cpu-pool"
+#define PACKAGE_STRING "cpuminer-opt 3.8.8.5-sumopower"
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "cpuminer-opt"
@@ -101,7 +101,7 @@
 #define PACKAGE_URL ""
 
 /* Define to the version of this package. */
-#define PACKAGE_VERSION "3.8.8.5-cpu-pool"
+#define PACKAGE_VERSION "3.8.8.5-sumopower"
 
 /* If using the C implementation of alloca, define if you know the
    direction of stack growth for your system; otherwise it will be
@@ -130,7 +130,7 @@
 #define USE_XOP 1
 
 /* Version number of package */
-#define VERSION "3.8.8.5-cpu-pool"
+#define VERSION "3.8.8.5-sumopower"
 
 /* Define to `unsigned int' if <sys/types.h> does not define. */
 /* #undef size_t */
